@@ -1,0 +1,9 @@
+D:\TFSPreview\Source\SPCAFMetro\TestApplicationSL.Web\bin\TestApplicationSL.Web.dll
+D:\TFSPreview\Source\SPCAFMetro\TestApplicationSL.Web\bin\TestApplicationSL.Web.pdb
+D:\TFSPreview\Source\SPCAFMetro\TestApplicationSL.Web\obj\Debug\TestApplicationSL.Web.dll
+D:\TFSPreview\Source\SPCAFMetro\TestApplicationSL.Web\obj\Debug\TestApplicationSL.Web.pdb
+D:\TFS2010\MetroChart\TestApplicationSL.Web\bin\TestApplicationSL.Web.dll
+D:\TFS2010\MetroChart\TestApplicationSL.Web\bin\TestApplicationSL.Web.pdb
+D:\TFS2010\MetroChart\TestApplicationSL.Web\obj\Debug\TestApplicationSL.Web.csprojResolveAssemblyReference.cache
+D:\TFS2010\MetroChart\TestApplicationSL.Web\obj\Debug\TestApplicationSL.Web.dll
+D:\TFS2010\MetroChart\TestApplicationSL.Web\obj\Debug\TestApplicationSL.Web.pdb

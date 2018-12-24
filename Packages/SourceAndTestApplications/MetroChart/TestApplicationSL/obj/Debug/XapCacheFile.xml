@@ -1,0 +1,5 @@
+﻿<xapCache source="D:\TFS2010\MetroChart\TestApplicationSL\Bin\Debug\TestApplicationSL.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="05.05.2013 12:33:23">
+  <file source="D:\TFS2010\MetroChart\TestApplicationSL\obj\Debug\TestApplicationSL.dll" archivePath="TestApplicationSL.dll" lastWriteTime="05.05.2013 12:33:23" />
+  <file source="D:\TFS2010\MetroChart\De.TorstenMandelkow.MetroChart.SL\Bin\Debug\De.TorstenMandelkow.MetroChart.dll" archivePath="De.TorstenMandelkow.MetroChart.dll" lastWriteTime="05.05.2013 12:32:54" />
+  <file source="D:\TFS2010\MetroChart\TestApplicationSL\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="05.05.2013 12:32:55" />
+</xapCache>

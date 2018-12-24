@@ -1,0 +1,50 @@
+﻿<Window x:Class="STOCKTICKER.ManageStock"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:STOCKTICKER"
+        mc:Ignorable="d"
+        Title="ManageStock" Height="383.247" Width="823.609" WindowStartupLocation="CenterScreen">
+    <Grid Background="#0A1B39" Margin="0,0,2,-2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="addGold" Content="+" Background="#2FCB06" FontWeight="Bold" HorizontalAlignment="Left" Margin="397,62,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="addGold_Click"/>
+        <Button x:Name="removeGold" Content="-" Background="#E00904" FontWeight="Bold" HorizontalAlignment="Left" Margin="397,90,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="removeGold_Click"/>
+        <Button x:Name="addSilver" Content="+" Background="#2FCB06" FontWeight="Bold" HorizontalAlignment="Left" Margin="397,157,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="addSilver_Click"/>
+        <Button x:Name="addOil" Content="+" Background="#2FCB06" FontWeight="Bold" HorizontalAlignment="Left" Margin="397,257,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="addOil_Click"/>
+        <Button x:Name="addBonds" Content="+" Background="#2FCB06" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,61,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="addBonds_Click"/>
+        <Button x:Name="addIndust" Content="+" Background="#2FCB06" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,156,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="addIndust_Click"/>
+        <Button x:Name="addGrain" Content="+" Background="#2FCB06" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,256,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="addGrain_Click"/>
+        <Button x:Name="removeSilver" Content="-" Background="#E00904" FontWeight="Bold" HorizontalAlignment="Left" Margin="397,185,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="removeSilver_Click"/>
+        <Button x:Name="removeOil" Content="-" Background="#E00904" FontWeight="Bold" HorizontalAlignment="Left" Margin="397,285,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="removeOil_Click"/>
+        <Button x:Name="removeBonds" Content="-" Background="#E00904" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,89,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="removeBonds_Click"/>
+        <Button x:Name="removeIndust" Content="-" Background="#E00904" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,184,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="removeIndust_Click"/>
+        <Button x:Name="removeGrain" Content="-" Background="#E00904" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,284,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="removeGrain_Click"/>
+        <Image x:Name="image" Source="Images/Money.png" HorizontalAlignment="Left" Height="90" Margin="22,120,0,0" VerticalAlignment="Top" Width="178"/>
+        <Image x:Name="image1" Source="Images/StockGold.png" HorizontalAlignment="Left" Height="92" Margin="214,21,0,0" VerticalAlignment="Top" Width="178"/>
+        <Image x:Name="image3" Source="Images/StockSilver.png" HorizontalAlignment="Left" Height="92" Margin="215,118,0,0" VerticalAlignment="Top" Width="178"/>
+        <Image x:Name="image4" Source="Images/StockOil.png" HorizontalAlignment="Left" Height="93" Margin="215,215,0,0" VerticalAlignment="Top" Width="177"/>
+        <Image x:Name="image5" Source="Images/StockBonds.png" HorizontalAlignment="Left" Height="93" Margin="513,20,0,0" VerticalAlignment="Top" Width="178"/>
+        <Image x:Name="image6" Source="Images/StockIndust.png" HorizontalAlignment="Left" Height="93" Margin="513,117,0,0" VerticalAlignment="Top" Width="178"/>
+        <Image x:Name="image7" Source="Images/StockGrain.png" HorizontalAlignment="Left" Height="93" Margin="513,214,0,0" VerticalAlignment="Top" Width="178"/>
+        <Button x:Name="confirm" Content="Confirm" HorizontalAlignment="Left" Margin="18,243,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="confirm_Click" Background="Green" FontWeight="Bold" FontSize="15" BorderThickness="0"/>
+        <Button x:Name="cancel" Content="Cancel" HorizontalAlignment="Left" Margin="112,243,0,0" VerticalAlignment="Top" Width="88" Height="41"  Background="Red" FontWeight="Bold" FontSize="15" BorderThickness="0" Click="cancel_Click"/>
+        <TextBox x:Name="amountGold" HorizontalAlignment="Left" Height="20" Margin="249,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Background="Transparent" Foreground="#4C3B2C" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Center" RenderTransformOrigin="2.508,4.826" IsReadOnly="True" />
+        <TextBox x:Name="amountSilver" HorizontalAlignment="Left" Height="20" Margin="249,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Background="Transparent" FontWeight="Bold" Foreground="#3A453F" FontSize="15" BorderThickness="0" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="amountOil" HorizontalAlignment="Left" Height="20" Margin="254,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Background="Transparent" FontWeight="Bold" Foreground="#3A453F" FontSize="15" BorderThickness="0" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="amountBonds" HorizontalAlignment="Left" Height="20" Margin="548,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Background="Transparent" FontWeight="Bold" Foreground="#3A453F" FontSize="15" BorderThickness="0" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="amountIndust" HorizontalAlignment="Left" Height="20" Margin="551,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Background="Transparent" FontWeight="Bold" Foreground="#3A453F" FontSize="15" BorderThickness="0" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="amountGrain" HorizontalAlignment="Left" Height="20" Margin="551,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Background="Transparent" FontWeight="Bold" Foreground="#3A453F" FontSize="15" BorderThickness="0" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="amountGoldVariation" HorizontalAlignment="Left" Height="20" Margin="392,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Background="Transparent" Foreground="#FFFFFF" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Left" RenderTransformOrigin="2.508,4.826" />
+        <TextBox x:Name="playerId" HorizontalAlignment="Left" Height="42" Margin="18,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Background="Transparent" FontWeight="Bold" Foreground="#FFFFFF" FontSize="20" BorderThickness="0" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="money" HorizontalAlignment="Left" Height="23" Margin="80,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Background="Transparent" FontWeight="Bold" Foreground="#3A453F" FontSize="15" BorderThickness="0" TextAlignment="Center" RenderTransformOrigin="0.229,1.543" IsReadOnly="True"/>
+        <TextBox x:Name="amountSilverVariation" HorizontalAlignment="Left" Height="20" Margin="392,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Background="Transparent" Foreground="#FFFFFF" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Left" RenderTransformOrigin="2.508,4.826" />
+        <TextBox x:Name="amountOilVariation" HorizontalAlignment="Left" Height="20" Margin="392,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Background="Transparent" Foreground="#FFFFFF" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Left" RenderTransformOrigin="2.508,4.826" />
+        <TextBox x:Name="amountBondsVariation" HorizontalAlignment="Left" Height="20" Margin="688,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Background="Transparent" Foreground="#FFFFFF" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Left" RenderTransformOrigin="2.508,4.826" />
+        <TextBox x:Name="amountIndustVariation" HorizontalAlignment="Left" Height="20" Margin="691,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Background="Transparent" Foreground="#FFFFFF" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Left" RenderTransformOrigin="2.508,4.826" />
+        <TextBox x:Name="amountGrainVariation" HorizontalAlignment="Left" Height="20" Margin="688,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Background="Transparent" Foreground="#FFFFFF" FontWeight="Bold" FontSize="15" BorderThickness="0" TextAlignment="Left" RenderTransformOrigin="2.508,4.826" />
+
+    </Grid>
+</Window>
