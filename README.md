@@ -1,5 +1,4 @@
-# Stockticker
-![picture](Images/StockTicker.PNG)
+# ![picture](Images/StockTicker.PNG)
 This is a simple adaptation of the vintage game Stockticker made in C# WPF. 
 
 ## Interface
