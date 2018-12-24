@@ -3,7 +3,7 @@ This is a simple adaptation of the vintage game Stockticker made in C# WPF.
 
 ## Interface
 
-![picture](Images/BoardFame.png)
+![picture](Images/BoardGame.png)
 
 ## Rules & Gameplay
 
